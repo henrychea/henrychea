@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-label="Henry Chea, Full-Stack Engineer, SDK and Platform Development, Phnom Penh Cambodia, Remote Worldwide">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5E5CE6"/>
+      <stop offset="100%" stop-color="#64D2FF"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF375F"/>
+      <stop offset="100%" stop-color="#FF9F0A"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#BF5AF2"/>
+      <stop offset="100%" stop-color="#5E5CE6"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+      <stop offset="30%" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="blur60" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+    <filter id="blur24" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <filter id="blur8" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="340" fill="#0A0A0F"/>
+
+  <!-- Liquid gradient blobs -->
+  <g filter="url(#blur60)">
+    <circle cx="140" cy="60" r="210" fill="url(#g1)" opacity="0.55">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 40,-35; 0,0" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="880" cy="300" r="230" fill="url(#g2)" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -35,-25; 0,0" dur="21s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="330" r="190" fill="url(#g3)" opacity="0.45">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 25,-40; 0,0" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="320" cy="290" r="140" fill="url(#g2)" opacity="0.3">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -30,-20; 0,0" dur="15s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="60" r="150" fill="url(#g1)" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 20,30; 0,0" dur="19s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Card shadow -->
+  <rect x="60" y="64" width="600" height="212" rx="36" fill="#000000" opacity="0.5" filter="url(#blur24)"/>
+
+  <!-- Liquid glass card -->
+  <rect x="60" y="64" width="600" height="212" rx="36" fill="url(#glass)" stroke="url(#rim)" stroke-width="1.5"/>
+
+  <!-- Text -->
+  <text x="100" y="142" font-family="Inter, -apple-system, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">Henry Chea</text>
+  <text x="100" y="184" font-family="Inter, -apple-system, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="500" fill="#B9B9C9">Full-Stack Engineer · SDK &amp; Platform Development</text>
+
+  <!-- Accent line -->
+  <rect x="100" y="203" width="52" height="3.5" rx="1.75" fill="url(#g1)"/>
+
+  <!-- Chips -->
+  <rect x="100" y="220" width="180" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+  <text x="115" y="242" font-family="Inter, -apple-system, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500" fill="#D9D9E3">Phnom Penh, Cambodia</text>
+  <rect x="292" y="220" width="152" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+  <text x="307" y="242" font-family="Inter, -apple-system, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500" fill="#D9D9E3">Remote Worldwide</text>
+
+  <!-- Sparkles -->
+  <g transform="translate(585,130) scale(1.5)">
+    <path d="M0,-22 C2,-7 7,-2 22,0 C7,2 2,7 0,22 C-2,7 -7,2 -22,0 C-7,-2 -2,-7 0,-22 Z" fill="url(#g1)">
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="3.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g transform="translate(625,172) scale(0.75)">
+    <path d="M0,-22 C2,-7 7,-2 22,0 C7,2 2,7 0,22 C-2,7 -7,2 -22,0 C-7,-2 -2,-7 0,-22 Z" fill="url(#g2)">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g transform="translate(556,196) scale(0.5)">
+    <path d="M0,-22 C2,-7 7,-2 22,0 C7,2 2,7 0,22 C-2,7 -7,2 -22,0 C-7,-2 -2,-7 0,-22 Z" fill="url(#g3)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
