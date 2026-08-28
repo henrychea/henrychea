@@ -6,7 +6,9 @@ I build SaaS products end to end: API, database, web app, mobile app, and docs. 
 
 <img src="profile/divider.svg" alt="" width="100%">
 
-## Currently Building: [OKPaid](https://okpaid.io)
+## Currently Building
+
+### [OKPaid](https://okpaid.io)
 
 A merchant POS and business-management platform, built solo from zero:
 
@@ -17,6 +19,16 @@ A merchant POS and business-management platform, built solo from zero:
 - **Features:** orders, invoices, products, customers, sales, kiosk-mode POS, team roles, API access.
 
 Two full clients in different frameworks on one backend is the core challenge I enjoy: contract-first API design, then build the same product twice with different UI paradigms.
+
+### [Quick Khmer](https://apps.apple.com/kh/app/quick-khmer-keyboard/id6800227587)
+
+An iOS keyboard that turns typed Latin into Khmer as you type: type "sok" and get សុខ. SwiftUI keyboard extension, shipped to the App Store:
+
+- **Phonetic transliteration** with automatic consonant stacking and a dedicated stack-breaker key.
+- **Smart suggestions** that learn from your picks, custom shortcut mappings, and an on-device user dictionary.
+- **Private by design:** no accounts, no ads, no tracking, no network requests. Everything runs on-device.
+
+Free on the [App Store](https://apps.apple.com/kh/app/quick-khmer-keyboard/id6800227587) · [qkk.henrychea.com](https://qkk.henrychea.com/)
 
 <img src="profile/divider.svg" alt="" width="100%">
 
@@ -48,6 +60,7 @@ Two full clients in different frameworks on one backend is the core challenge I 
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 ![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-F05138?style=for-the-badge&logo=swift&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
 **Backend & Infrastructure**
@@ -83,6 +96,7 @@ Two full clients in different frameworks on one backend is the core challenge I 
 | Project | Stack | What it is |
 |---------|-------|------------|
 | [**OKPaid**](https://okpaid.io) | Hono, Drizzle, Postgres, SolidJS, Expo, Astro | Merchant POS and business-management platform, built solo end to end |
+| [**Quick Khmer**](https://apps.apple.com/kh/app/quick-khmer-keyboard/id6800227587) | SwiftUI, iOS Keyboard Extension | iOS keyboard: type Latin, get Khmer. Smart suggestions, custom mappings, on-device dictionary |
 | **Gling.ai** | Electron, Solid.js | Desktop video app: timeline scrubbing, automated subtitle generation with high-precision timestamping |
 | **Lawato** | Full-stack SaaS | Legal CRM and practice management: case tracking, time logging, billing, dynamic PDF invoices |
 | **SpeakTe** | EdTech platform | Co-founded; English-speaking skills platform, Chrome extension for training analytics, raised funds through investor pitches |
