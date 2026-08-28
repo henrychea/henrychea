@@ -1,0 +1,387 @@
+<!DOCTYPE html><html class="dark" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Henry Chea | SYSTEM_CRITICAL | Cyber-Architect</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "void-black": "#0e0e10",
+                    "outline": "#9a9078",
+                    "on-background": "#e5e1e4",
+                    "surface-tint": "#facc15",
+                    "cyber-red": "#ef4444",
+                    "neon-yellow": "#facc15",
+                    "surface-dim": "#131315",
+                    "on-primary": "#3c2f00",
+                    "surface-bright": "#39393b",
+                    "inverse-primary": "#735c00",
+                    "error-container": "#93000a",
+                    "surface-variant": "#353437",
+                    "on-surface-variant": "#d1c6ab",
+                    "on-surface": "#e5e1e4",
+                    "primary-container": "#facc15",
+                    "surface-container-low": "#1b1b1d",
+                    "secondary": "#ffb3ad",
+                    "background": "#131315",
+                    "surface-container": "#201f21",
+                    "primary": "#ffecb9",
+                    "secondary-container": "#a40217",
+                    "on-error": "#690005",
+                    "surface": "#131315",
+                    "inverse-on-surface": "#313032",
+                    "outline-variant": "#4d4632",
+                    "surface-container-highest": "#353437",
+                    "surface-container-high": "#2a2a2c",
+                    "on-primary-container": "#6c5700",
+                    "on-error-container": "#ffdad6",
+                    "inverse-surface": "#e5e1e4",
+                    "surface-container-lowest": "#0e0e10",
+                    "glass-stroke": "rgba(250, 204, 21, 0.2)",
+                    "glass-fill": "rgba(14, 14, 16, 0.9)"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0px",
+                    "lg": "0px",
+                    "xl": "0px",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "section-gap": "8rem",
+                    "stack-md": "1.5rem",
+                    "margin-mobile": "1.25rem",
+                    "gutter": "2rem",
+                    "stack-lg": "4rem",
+                    "stack-sm": "0.5rem",
+                    "container-max": "1200px"
+            },
+            "fontFamily": {
+                    "label-code": ["JetBrains Mono"],
+                    "body-md": ["JetBrains Mono"],
+                    "display": ["Space Grotesk"],
+                    "headline-lg": ["Space Grotesk"]
+            },
+            "fontSize": {
+                    "label-code": ["14px", {"lineHeight": "1.5", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                    "body-md": ["14px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-md": ["30px", {"lineHeight": "1.3", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "display": ["72px", {"lineHeight": "1.1", "letterSpacing": "-0.04em", "fontWeight": "800"}],
+                    "headline-lg": ["48px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #0e0e10;
+            color: #e5e1e4;
+            overflow-x: hidden;
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .glass-card {
+            background: #0e0e10;
+            border: 1px solid #facc15;
+            transition: all 0.2s steps(4);
+            position: relative;
+        }
+        .glow-yellow {
+            border-color: #facc15;
+            box-shadow: 4px 4px 0px #facc15;
+        }
+        .glass-card:hover {
+            background: #1b1b1d;
+            box-shadow: 8px 8px 0px #ef4444;
+            border-color: #ef4444;
+            transform: translate(-2px, -2px);
+        }
+        .cyber-glow-red {
+            filter: drop-shadow(0 0 4px #ef4444);
+        }
+        .reveal-on-scroll {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+        .reveal-on-scroll.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+        .cursor::after {
+            content: '█';
+            animation: blink 0.8s step-start infinite;
+            color: #ef4444;
+            margin-left: 4px;
+        }
+        .timeline-line {
+            background: linear-gradient(to bottom, #facc15, #ef4444, #facc15);
+            width: 2px;
+        }
+        .node-pulse {
+            animation: pulse-red 1.5s step-end infinite;
+        }
+        @keyframes pulse-red {
+            0%, 100% { background: #ef4444; outline: 0px solid #ef4444; }
+            50% { background: #0e0e10; outline: 4px solid #ef4444; }
+        }
+        .pixel-border {
+            border: 2px solid #facc15;
+            box-shadow: 4px 4px 0px #ef4444;
+        }
+        ::selection {
+            background: #ef4444;
+            color: #0e0e10;
+        }
+    </style>
+</head>
+<body class="font-body-md">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 border-b-2 border-neon-yellow bg-void-black">
+<div class="flex justify-between items-center px-margin-mobile md:px-gutter py-4 max-w-container-max mx-auto">
+<div class="font-label-code text-lg font-bold text-neon-yellow tracking-tighter">
+            HENRY_CHEA.SYS [CRITICAL]
+        </div>
+<div class="hidden md:flex gap-8">
+<a class="font-label-code text-label-code text-neon-yellow font-bold border-b-2 border-cyber-red pb-1" href="#work">PROJECT_LOG</a>
+<a class="font-label-code text-label-code text-on-surface-variant hover:text-cyber-red transition-colors" href="#tech">CORE_STACK</a>
+<a class="font-label-code text-label-code text-on-surface-variant hover:text-cyber-red transition-colors" href="#experience">HISTORY</a>
+<a class="font-label-code text-label-code text-on-surface-variant hover:text-cyber-red transition-colors" href="mailto:henrychea@outlook.com">COMMS</a>
+</div>
+<a class="px-6 py-2 bg-neon-yellow text-void-black font-label-code font-bold border-2 border-neon-yellow hover:bg-cyber-red hover:border-cyber-red transition-all" href="#">
+            RETRV_RESUME
+        </a>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative w-full h-screen flex items-center justify-center overflow-hidden bg-void-black">
+
+<div class="absolute inset-0 z-10 pointer-events-none" id="threejs-container">
+
+</div>
+<div class="relative z-20 glass-card glow-yellow p-10 md:p-16 max-w-3xl text-center mx-margin-mobile border-2">
+<h1 class="font-display text-headline-lg-mobile md:text-display mb-4 tracking-tighter text-white">
+            HENRY CHEA // SYSTEM_CRITICAL
+        </h1>
+<p class="font-label-code text-label-code md:text-lg text-cyber-red uppercase tracking-widest cursor" id="typewriter">
+            OVERRIDING STABLE_OS... SENIOR ENGINEER // HARSH_ENV_SPECIALIST [SYSTEM_CRITICAL]
+        </p>
+<div class="mt-8 flex flex-col md:flex-row gap-4 justify-center">
+<a class="px-8 py-3 bg-neon-yellow text-void-black font-bold font-label-code hover:bg-cyber-red transition-all shadow-[4px_4px_0px_#ef4444]" href="#work">
+                INIT_EXPLORATION
+            </a>
+<a class="px-8 py-3 bg-transparent border-2 border-cyber-red text-cyber-red font-bold font-label-code hover:bg-cyber-red hover:text-white transition-all" href="mailto:henrychea@outlook.com">
+                ESTABLISH_LINK
+            </a>
+</div>
+</div>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 animate-bounce">
+<span class="material-symbols-outlined text-neon-yellow text-4xl">keyboard_double_arrow_down</span>
+</div>
+</header>
+<!-- Selected Works -->
+<section class="py-section-gap px-margin-mobile md:px-gutter max-w-container-max mx-auto" id="work">
+<div class="mb-12 reveal-on-scroll">
+<div class="flex items-center gap-3 mb-2">
+<span class="w-12 h-1 bg-cyber-red"></span>
+<h2 class="font-display text-headline-lg text-white">SELECTED_WORKS.LOG</h2>
+</div>
+<p class="text-neon-yellow font-label-code uppercase text-sm tracking-widest">ENCRYPTED_ASSETS &amp; CRITICAL_MODULES</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Project 1 -->
+<div class="glass-card glow-yellow overflow-hidden group reveal-on-scroll" style="transition-delay: 50ms">
+<div class="relative h-64 overflow-hidden border-b-2 border-neon-yellow">
+<img class="w-full h-full object-cover grayscale contrast-125 group-hover:grayscale-0 transition-all duration-300" data-alt="Futuristic UI dashboard with red and yellow highlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAafTCGhEPUmQHjJiOpWG7a4I5RtWXWljZb3DD9-JDHxPJ46V_-IGLt1otI8L_d21AsXBFCReQJnPWoqcxDj4c1MEJu6Ku5BrTrQCwXJ25SgRTwaM8HR2ARoc93gvi9wP_T7CvUsETDGfbyT9BjR_HI9pIMeBVZ5GdI0coC0ZRmhemiJvPSJslAK0jlx_b6g0lYrYSEnYwnOpQ3IEq4VKEpGlK9cQ1JIUn4KvGLlLcMfhD3ueZzzLtNy3SSTDbHw2a9xONv6rkH78fY">
+<div class="absolute inset-0 bg-cyber-red/10 mix-blend-multiply"></div>
+</div>
+<div class="p-6">
+<h3 class="font-label-code text-xl text-neon-yellow mb-3 uppercase font-bold">Cyber-Monitor.red</h3>
+<p class="text-on-surface-variant font-body-md mb-6">Real-time distributed system visualization with high-contrast UI and immediate alert propagation.</p>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-2 py-1 bg-void-black border border-cyber-red text-[10px] font-label-code text-cyber-red uppercase font-bold">React.core</span>
+<span class="px-2 py-1 bg-void-black border border-neon-yellow text-[10px] font-label-code text-neon-yellow uppercase font-bold">GLSL.shd</span>
+</div>
+<a class="inline-flex items-center gap-2 text-neon-yellow font-label-code text-sm hover:text-cyber-red transition-colors" href="#">
+                    OPEN_TERMINAL <span class="material-symbols-outlined text-sm">terminal</span>
+</a>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="glass-card glow-yellow overflow-hidden group reveal-on-scroll" style="transition-delay: 100ms">
+<div class="relative h-64 overflow-hidden border-b-2 border-neon-yellow">
+<img class="w-full h-full object-cover grayscale contrast-125 group-hover:grayscale-0 transition-all duration-300" data-alt="Neural network fibers in red and yellow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMpPbvXPuqV4lAwNkiZTXzWGGbYh0URGg5GcCfj60aIjEVOQCmiLY1ndu97Yw_r-ooJZq-2bXmrxY3RNrSxPj7oT7kREHz6z0pxivNd-gdsvObpdAZBZ9GfHFLwWnorZ6aGlJJkuGXiA9yU-5QhTrvh8pmKp8anJfY5o3w4aQ70gFMfzlXIPyIkOrpqA9w9gyDtPjhGXpP9ZiKpMMp7J8_PUdgITHn26QG-K_33TSRu3iJvAmLGuLVuZRZVzv9QfAUTUUiiuLm1YHc">
+<div class="absolute inset-0 bg-neon-yellow/10 mix-blend-multiply"></div>
+</div>
+<div class="p-6">
+<h3 class="font-label-code text-xl text-neon-yellow mb-3 uppercase font-bold">Neural-Killswitch</h3>
+<p class="text-on-surface-variant font-body-md mb-6">Automated isolation protocols for AI model drift detection within critical infrastructure nodes.</p>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-2 py-1 bg-void-black border border-cyber-red text-[10px] font-label-code text-cyber-red uppercase font-bold">Go_Runtime</span>
+<span class="px-2 py-1 bg-void-black border border-neon-yellow text-[10px] font-label-code text-neon-yellow uppercase font-bold">K8s.sys</span>
+</div>
+<a class="inline-flex items-center gap-2 text-neon-yellow font-label-code text-sm hover:text-cyber-red transition-colors" href="#">
+                    OPEN_TERMINAL <span class="material-symbols-outlined text-sm">terminal</span>
+</a>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="glass-card glow-yellow overflow-hidden group reveal-on-scroll" style="transition-delay: 150ms">
+<div class="relative h-64 overflow-hidden border-b-2 border-neon-yellow">
+<img class="w-full h-full object-cover grayscale contrast-125 group-hover:grayscale-0 transition-all duration-300" data-alt="Data center wireframe in red and yellow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdmPFpl0BSIZfmJf4awvMeXOwBtVBYL_py_pbR4uJWISnGZJPuF2wz1jpsJMoDcI3c4KWQHBU8vmg4j90zsuGlhwGDPaWeVYUbt1CvxRa_uE1tAVGW9w9cppgVwmRm6geb3pHKzVb1hvFmOganD1gsf-UNG7AIFDqmcaFBu1gRJUNqIs8yD8tLh_x1IzoPXq1lzXPCef03tV3vWsoxaDRizeJkdPQyIftX5qfhB93Ztn7t1_AJzVYT2j3qJ1NW6B3O6LTNBzL-UW4X">
+</div>
+<div class="p-6">
+<h3 class="font-label-code text-xl text-neon-yellow mb-3 uppercase font-bold">Red_Ledger.exe</h3>
+<p class="text-on-surface-variant font-body-md mb-6">High-security transaction auditing for high-frequency trading with millisecond consistency checks.</p>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-2 py-1 bg-void-black border border-cyber-red text-[10px] font-label-code text-cyber-red uppercase font-bold">Rust.io</span>
+<span class="px-2 py-1 bg-void-black border border-neon-yellow text-[10px] font-label-code text-neon-yellow uppercase font-bold">L2_Chain</span>
+</div>
+<a class="inline-flex items-center gap-2 text-neon-yellow font-label-code text-sm hover:text-cyber-red transition-colors" href="#">
+                    OPEN_TERMINAL <span class="material-symbols-outlined text-sm">terminal</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Tech Stack Marquee -->
+<section class="py-stack-lg bg-surface-container-lowest overflow-hidden border-y-4 border-cyber-red" id="tech">
+<div class="max-w-container-max mx-auto px-margin-mobile mb-12 text-center reveal-on-scroll">
+<h2 class="font-label-code text-headline-md mb-2 text-neon-yellow">CORE_ARSENAL.SYS</h2>
+<p class="text-cyber-red font-label-code text-xs uppercase tracking-widest">[SYSTEM_CRITICAL_COMPETENCY_VERIFIED]</p>
+</div>
+<div class="marquee-container relative flex overflow-hidden py-12">
+<div class="flex animate-[marquee_20s_linear_infinite] gap-12 whitespace-nowrap items-center">
+<span class="text-headline-lg font-display text-neon-yellow/30 flex items-center gap-4"><span class="material-symbols-outlined text-4xl text-neon-yellow">code</span> REACT</span>
+<span class="text-headline-lg font-display text-cyber-red/30 flex items-center gap-4"><span class="material-symbols-outlined text-4xl text-cyber-red">settings</span> TYPESCRIPT</span>
+<span class="text-headline-lg font-display text-neon-yellow/30 flex items-center gap-4"><span class="material-symbols-outlined text-4xl text-neon-yellow">database</span> POSTGRESQL</span>
+<span class="text-headline-lg font-display text-cyber-red/30 flex items-center gap-4"><span class="material-symbols-outlined text-4xl text-cyber-red">terminal</span> RUST</span>
+<span class="text-headline-lg font-display text-neon-yellow/30 flex items-center gap-4"><span class="material-symbols-outlined text-4xl text-neon-yellow">cloud</span> DOCKER</span>
+<span class="text-headline-lg font-display text-cyber-red/30 flex items-center gap-4"><span class="material-symbols-outlined text-4xl text-cyber-red">bolt</span> NEXT.JS</span>
+<!-- Duplicate for seamless loop -->
+<span class="text-headline-lg font-display text-neon-yellow/30 flex items-center gap-4"><span class="material-symbols-outlined text-4xl text-neon-yellow">code</span> REACT</span>
+<span class="text-headline-lg font-display text-cyber-red/30 flex items-center gap-4"><span class="material-symbols-outlined text-4xl text-cyber-red">settings</span> TYPESCRIPT</span>
+</div>
+</div>
+<style>
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+    </style>
+</section>
+<!-- Experience Timeline -->
+<section class="py-section-gap px-margin-mobile md:px-gutter max-w-container-max mx-auto" id="experience">
+<div class="mb-20 reveal-on-scroll">
+<div class="flex items-center gap-3 mb-2">
+<span class="w-12 h-1 bg-neon-yellow"></span>
+<h2 class="font-display text-headline-lg text-white">DEPLOYMENT_HISTORY</h2>
+</div>
+<p class="text-cyber-red font-label-code uppercase text-sm tracking-widest">CRITICAL_NODE_TRACEBACK</p>
+</div>
+<div class="relative pl-8 md:pl-0">
+<!-- Central Line -->
+<div class="absolute left-0 md:left-1/2 top-0 bottom-0 timeline-line -translate-x-1/2"></div>
+<!-- Experience Item 1 -->
+<div class="relative mb-24 md:flex items-center reveal-on-scroll">
+<div class="md:w-1/2 md:pr-16 md:text-right mb-4 md:mb-0">
+<div class="inline-block px-4 py-1 bg-cyber-red text-void-black font-label-code font-bold mb-2">
+                    2022 - PRESENT
+                </div>
+<h3 class="font-label-code text-2xl text-neon-yellow font-bold">SR_SYSTEM_ARCHITECT</h3>
+<p class="text-cyber-red font-label-code text-sm">CRITICAL_INFRA_CORP</p>
+</div>
+<div class="absolute left-[-10px] md:left-1/2 w-5 h-5 bg-cyber-red node-pulse -translate-x-1/2 z-10 border-2 border-neon-yellow"></div>
+<div class="md:w-1/2 md:pl-16">
+<div class="glass-card glow-yellow p-6 border-2">
+<ul class="space-y-3 text-on-surface font-label-code text-sm">
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-cyber-red text-sm mt-1">priority_high</span> HARDENING: 99.999% Uptime across critical nodes.</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-cyber-red text-sm mt-1">priority_high</span> ARCH: Reactive fault-tolerance for data streams.</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-cyber-red text-sm mt-1">priority_high</span> OPS: Immediate response protocols deployed.</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Experience Item 2 -->
+<div class="relative mb-24 md:flex items-center flex-row-reverse reveal-on-scroll">
+<div class="md:w-1/2 md:pl-16 mb-4 md:mb-0">
+<div class="inline-block px-4 py-1 bg-neon-yellow text-void-black font-label-code font-bold mb-2">
+                    2020 - 2022
+                </div>
+<h3 class="font-label-code text-2xl text-neon-yellow font-bold">FULL_STACK_ENG</h3>
+<p class="text-cyber-red font-label-code text-sm">CYBER_DEFENSE_LABS</p>
+</div>
+<div class="absolute left-[-10px] md:left-1/2 w-5 h-5 bg-cyber-red node-pulse -translate-x-1/2 z-10 border-2 border-neon-yellow"></div>
+<div class="md:w-1/2 md:pr-16 md:text-right">
+<div class="glass-card glow-yellow p-6 border-2">
+<ul class="space-y-3 text-on-surface font-label-code text-sm">
+<li class="flex items-start md:flex-row-reverse gap-2"><span class="material-symbols-outlined text-cyber-red text-sm mt-1">warning</span> Built zero-trust interface layers for global ops.</li>
+<li class="flex items-start md:flex-row-reverse gap-2"><span class="material-symbols-outlined text-cyber-red text-sm mt-1">warning</span> Glitch-resistant visualization kernels.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-void-black border-t-4 border-neon-yellow w-full py-stack-md">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-gutter max-w-container-max mx-auto gap-4">
+<div class="font-label-code text-body-md font-bold text-cyber-red uppercase">
+            HENRY_CHEA // CRITICAL_SYSTEM // 2024
+        </div>
+<div class="text-neon-yellow font-label-code text-[10px] tracking-widest bg-cyber-red/20 px-2 py-1">
+            [ACCESS: UNRESTRICTED // STATUS: CRITICAL]
+        </div>
+<div class="flex gap-6">
+<a class="text-on-surface-variant font-label-code text-xs hover:text-neon-yellow transition-colors" href="#">GITHUB</a>
+<a class="text-on-surface-variant font-label-code text-xs hover:text-neon-yellow transition-colors" href="#">LINKEDIN</a>
+<a class="text-on-surface-variant font-label-code text-xs hover:text-neon-yellow transition-colors" href="#">TERMINAL_SRC</a>
+</div>
+</div>
+</footer>
+<!-- Scripts for Micro-interactions -->
+<script>
+    // Typewriter Effect
+    const text = "OVERRIDING STABLE_OS... SENIOR ENGINEER // HARSH_ENV_SPECIALIST [SYSTEM_CRITICAL]";
+    let index = 0;
+    const speed = 40;
+    const typewriter = document.getElementById('typewriter');
+    typewriter.innerHTML = "";
+
+    function type() {
+        if (index < text.length) {
+            typewriter.innerHTML += text.charAt(index);
+            index++;
+            setTimeout(type, speed);
+        }
+    }
+    
+    window.addEventListener('load', () => {
+        setTimeout(type, 800);
+    });
+
+    // Scroll Reveals
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
+</script>
+</body></html>
