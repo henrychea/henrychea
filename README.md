@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <code>independent developer</code> &nbsp;·&nbsp; <code>side projects only</code> &nbsp;·&nbsp; <code>not employed</code>
+  <code>independent developer</code> &nbsp;·&nbsp; <code>side projects</code> &nbsp;·&nbsp; <code>open source</code>
 </p>
 
-I'm Henry. I build in the open. SunnyGen is the main one; OKPaid and Quick Khmer are still shipping. Before that I spent years inside product teams building SDKs, payments, and platforms.
+I'm Henry. I build in the open — SunnyGen is the main one; OKPaid and Quick Khmer are still shipping. I like owning a product end to end: API, database, web, mobile, docs. Before that I spent years inside product teams building SDKs, payments, and platforms; that experience is the foundation for the solo work.
 
 <img src="profile/divider.svg" alt="" width="100%">
 
@@ -43,6 +43,9 @@ Type Latin, get Khmer: phonetic transliteration, automatic consonant stacking, s
 <img src="profile/divider.svg" alt="" width="100%">
 
 ## 02 // BEFORE
+
+The short version of where the experience comes from — years of shipping for other teams, now pointed at my own products.
+
 
 | Duration | Role | Company | What I built |
 |---|---|---|---|
@@ -132,6 +135,8 @@ Type Latin, get Khmer: phonetic transliteration, automatic consonant stacking, s
 - **LinkedIn:** [linkedin.com/in/cheahenry](https://www.linkedin.com/in/cheahenry)
 - **Website:** [henrychea.com](https://www.henrychea.com)
 - **GitHub:** [github.com/henrychea](https://github.com/henrychea)
+
+Open to the right conversations — email is the fastest way to reach me. Also glad to talk open source, SunnyGen, or local-first architecture.
 
 <p align="center">
   <em>Languages: English (native), Khmer (native)</em>

@@ -31,7 +31,7 @@
   <!-- left -->
   <text x="68" y="136" font-family="'Space Grotesk', -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="54" font-weight="700" letter-spacing="1" fill="#e5e1e4">HENRY CHEA</text>
   <text x="68" y="178" font-family="'Space Grotesk', -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700" letter-spacing="2" fill="#facc15">INDEPENDENT DEVELOPER</text>
-  <text x="68" y="206" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="13.5" letter-spacing="0.5" fill="#9a9078">side projects only · no employer · building my own products</text>
+  <text x="68" y="206" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="13.5" letter-spacing="0.5" fill="#9a9078">building my own products · local-first · open source</text>
 
   <!-- chips -->
   <g font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" letter-spacing="1.4">
@@ -55,16 +55,14 @@
 
   <g font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" letter-spacing="0.3">
     <text x="604" y="128" fill="#9a9078">$ <tspan fill="#e5e1e4">whoami</tspan></text>
-    <text x="604" y="150" fill="#e5e1e4">henry chea</text>
-    <text x="604" y="176" fill="#9a9078">$ <tspan fill="#e5e1e4">status</tspan></text>
-    <text x="604" y="198" fill="#facc15">independent · side projects</text>
-    <text x="604" y="224" fill="#9a9078">$ <tspan fill="#e5e1e4">now</tspan></text>
-    <text x="604" y="246" fill="#e5e1e4">sunnygen · v2.0.0 · MIT</text>
-    <text x="604" y="272" fill="#facc15">$</text>
+    <text x="604" y="148" fill="#e5e1e4">henry chea</text>
+    <text x="604" y="172" fill="#9a9078">$ <tspan fill="#e5e1e4">status</tspan></text>
+    <text x="604" y="192" fill="#facc15">independent · side projects</text>
+    <text x="604" y="216" fill="#9a9078">$ <tspan fill="#e5e1e4">now</tspan></text>
+    <text x="604" y="236" fill="#e5e1e4">sunnygen · v2.0.0 · MIT</text>
+    <text x="604" y="260" fill="#9a9078">$ <tspan fill="#e5e1e4">open_to</tspan></text>
+    <text x="604" y="280" fill="#facc15">the right conversations</text>
   </g>
-  <rect x="618" y="260" width="8" height="14" fill="#facc15">
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.2s" repeatCount="indefinite"/>
-  </rect>
 
   <rect x="32" y="333" width="936" height="3" fill="url(#scan)"/>
 </svg>
