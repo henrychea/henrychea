@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Henry Chea — independent developer building side projects in Phnom Penh. Formerly SDK and platform work at IDVerse, GVRN.ai, Tab Next Asia, and SpeakTe.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Henry Chea, independent developer building side projects in Phnom Penh. Formerly SDK and platform work at IDVerse, GVRN.ai, Tab Next Asia, and SpeakTe.">
   <defs>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1b1b1d" stroke-width="1"/>
@@ -51,7 +51,7 @@
   <rect x="600" y="89" width="8" height="8" fill="#ef4444"/>
   <rect x="614" y="89" width="8" height="8" fill="#facc15"/>
   <rect x="628" y="89" width="8" height="8" fill="#4d4632"/>
-  <text x="650" y="97" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.2" fill="#9a9078">bash — henry</text>
+  <text x="650" y="97" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.2" fill="#9a9078">bash // henry</text>
 
   <g font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" letter-spacing="0.3">
     <text x="604" y="128" fill="#9a9078">$ <tspan fill="#e5e1e4">whoami</tspan></text>

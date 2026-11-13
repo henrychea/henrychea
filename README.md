@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="profile/hero.svg" alt="Henry Chea — independent developer building side projects in Phnom Penh. Formerly SDK and platform work at IDVerse, GVRN.ai, Tab Next Asia, and SpeakTe." width="100%">
+  <img src="profile/hero.svg" alt="Henry Chea, independent developer building side projects in Phnom Penh. Formerly SDK and platform work at IDVerse, GVRN.ai, Tab Next Asia, and SpeakTe." width="100%">
 </p>
 
 <p align="center">
   <code>independent developer</code> &nbsp;·&nbsp; <code>side projects</code> &nbsp;·&nbsp; <code>open source</code>
 </p>
 
-I'm Henry. I build in the open — SunnyGen is the main one; OKPaid and Quick Khmer are still shipping. I like owning a product end to end: API, database, web, mobile, docs. Before that I spent years inside product teams building SDKs, payments, and platforms; that experience is the foundation for the solo work.
+I'm Henry. I build in the open: SunnyGen is the main one; OKPaid and Quick Khmer are still shipping. I like owning a product end to end: API, database, web, mobile, docs. Before that I spent years inside product teams building SDKs, payments, and platforms; that experience is the foundation for the solo work.
 
 <img src="profile/divider.svg" alt="" width="100%">
 
 ## 01 // NOW
 
-### [SunnyGen](https://github.com/henrychea/SunnyGen) — local-first AI studio
+### [SunnyGen](https://github.com/henrychea/SunnyGen) // local-first AI studio
 
 <p align="center">
   <img src="profile/sunnygen.gif" alt="SunnyGen gallery wall with folders, generated renders, and the local-first chrome." width="100%">
@@ -26,15 +26,15 @@ Your studio. Your machine. Your keys. An MIT-licensed AI studio for image, video
 - **Installable:** PWA shell with offline app cache; reach it over localhost, LAN, or Tailscale.
 
 **Stack:** TanStack Start · TanStack Router · React · TypeScript · SQLite · Tailwind · sharp
-**License:** MIT — fork it, wire in a provider, send a PR.
+**License:** MIT. Fork it, wire in a provider, send a PR.
 
 [**Repository**](https://github.com/henrychea/SunnyGen)
 
-### [OKPaid](https://okpaid.io) — merchant POS and business management
+### [OKPaid](https://okpaid.io) // merchant POS and business management
 
 Built solo from zero: TypeScript/Hono/Drizzle/Postgres on Neon and Cloudflare, a SolidJS PWA with barcode scanning, an Expo React Native app mirroring the web feature set, and an Astro docs site. RBAC, API keys, migrations, orders, invoices, kiosk POS.
 
-### [Quick Khmer](https://apps.apple.com/kh/app/quick-khmer-keyboard/id6800227587) — Khmer iOS keyboard
+### [Quick Khmer](https://apps.apple.com/kh/app/quick-khmer-keyboard/id6800227587) // Khmer iOS keyboard
 
 Type Latin, get Khmer: phonetic transliteration, automatic consonant stacking, smart suggestions, custom shortcuts, and an on-device dictionary. SwiftUI keyboard extension, shipped to the App Store. No accounts, no ads, no tracking, no network calls.
 
@@ -44,7 +44,7 @@ Type Latin, get Khmer: phonetic transliteration, automatic consonant stacking, s
 
 ## 02 // BEFORE
 
-The short version of where the experience comes from — years of shipping for other teams, now pointed at my own products.
+The short version of where the experience comes from: years of shipping for other teams, now pointed at my own products.
 
 
 | Duration | Role | Company | What I built |
@@ -54,7 +54,7 @@ The short version of where the experience comes from — years of shipping for o
 | ~2 yrs | Team & Tech Lead, Co-Founder | SpeakTe, Phnom Penh | System architecture, Chrome extension, financial planning, investor pitches |
 | ~1 yr | Frontend Developer | Tab Next Asia, Remote | Vue.js, .NET Web SDK, mentored two junior frontend developers |
 
-**BSc in Information Communications Technology**, University of Puthisastra, Phnom Penh (2017–2021), GPA 3.6/4.0
+**BSc in Information Communications Technology**, University of Puthisastra, Phnom Penh (2017-2021), GPA 3.6/4.0
 
 <img src="profile/divider.svg" alt="" width="100%">
 
@@ -136,7 +136,7 @@ The short version of where the experience comes from — years of shipping for o
 - **Website:** [henrychea.com](https://www.henrychea.com)
 - **GitHub:** [github.com/henrychea](https://github.com/henrychea)
 
-Open to the right conversations — email is the fastest way to reach me. Also glad to talk open source, SunnyGen, or local-first architecture.
+Open to the right conversations. Email is the fastest way to reach me. Also glad to talk open source, SunnyGen, or local-first architecture.
 
 <p align="center">
   <em>Languages: English (native), Khmer (native)</em>
