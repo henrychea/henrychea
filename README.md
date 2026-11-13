@@ -6,7 +6,7 @@
   <code>independent developer</code> &nbsp;·&nbsp; <code>side projects only</code> &nbsp;·&nbsp; <code>not employed</code>
 </p>
 
-I'm Henry. I build my own products now — no employer, no full-time role. SunnyGen is the main one; OKPaid and Quick Khmer are still shipping. Before that I spent years inside product teams building SDKs, payments, and platforms. That experience is the whole foundation for what I'm doing solo.
+I'm Henry. I build in the open. SunnyGen is the main one; OKPaid and Quick Khmer are still shipping. Before that I spent years inside product teams building SDKs, payments, and platforms.
 
 <img src="profile/divider.svg" alt="" width="100%">
 
@@ -43,8 +43,6 @@ Type Latin, get Khmer: phonetic transliteration, automatic consonant stacking, s
 <img src="profile/divider.svg" alt="" width="100%">
 
 ## 02 // BEFORE
-
-I'm not looking for a full-time role. This section is here because years of shipping for other teams is exactly what I'm pointing at my own products now.
 
 | Duration | Role | Company | What I built |
 |---|---|---|---|
@@ -134,8 +132,6 @@ I'm not looking for a full-time role. This section is here because years of ship
 - **LinkedIn:** [linkedin.com/in/cheahenry](https://www.linkedin.com/in/cheahenry)
 - **Website:** [henrychea.com](https://www.henrychea.com)
 - **GitHub:** [github.com/henrychea](https://github.com/henrychea)
-
-Not for hire. If you want to collaborate on open source, test SunnyGen, or compare notes on local-first software, email is the fastest way to reach me.
 
 <p align="center">
   <em>Languages: English (native), Khmer (native)</em>
