@@ -1,92 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-label="Henry Chea, Full-Stack Engineer, SDK and Platform Development, Phnom Penh Cambodia, Remote Worldwide">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Henry Chea — independent developer building side projects in Phnom Penh. Formerly SDK and platform work at IDVerse, GVRN.ai, Tab Next Asia, and SpeakTe.">
   <defs>
-    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#5E5CE6"/>
-      <stop offset="100%" stop-color="#64D2FF"/>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1b1b1d" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#facc15" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#facc15" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#ef4444" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FF375F"/>
-      <stop offset="100%" stop-color="#FF9F0A"/>
-    </linearGradient>
-    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#BF5AF2"/>
-      <stop offset="100%" stop-color="#5E5CE6"/>
-    </linearGradient>
-    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.03"/>
-    </linearGradient>
-    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/>
-      <stop offset="30%" stop-color="#FFFFFF" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
-    </linearGradient>
-    <filter id="blur60" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="60"/>
-    </filter>
-    <filter id="blur24" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="24"/>
-    </filter>
-    <filter id="blur8" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="8"/>
-    </filter>
   </defs>
 
-  <!-- Background -->
-  <rect width="1000" height="340" fill="#0A0A0F"/>
+  <rect width="1000" height="360" fill="#0e0e10"/>
+  <rect width="1000" height="360" fill="url(#grid)"/>
 
-  <!-- Liquid gradient blobs -->
-  <g filter="url(#blur60)">
-    <circle cx="140" cy="60" r="210" fill="url(#g1)" opacity="0.55">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 40,-35; 0,0" dur="18s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="880" cy="300" r="230" fill="url(#g2)" opacity="0.5">
-      <animateTransform attributeName="transform" type="translate" values="0,0; -35,-25; 0,0" dur="21s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="620" cy="330" r="190" fill="url(#g3)" opacity="0.45">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 25,-40; 0,0" dur="24s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="320" cy="290" r="140" fill="url(#g2)" opacity="0.3">
-      <animateTransform attributeName="transform" type="translate" values="0,0; -30,-20; 0,0" dur="15s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="760" cy="60" r="150" fill="url(#g1)" opacity="0.35">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 20,30; 0,0" dur="19s" repeatCount="indefinite"/>
-    </circle>
+  <!-- frame -->
+  <rect x="32" y="24" width="936" height="312" fill="#131315" stroke="#facc15" stroke-width="1.5"/>
+  <rect x="44" y="36" width="912" height="288" fill="none" stroke="#4d4632" stroke-width="1" opacity="0.7"/>
+  <path d="M 32 56 L 32 24 L 64 24" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <path d="M 968 56 L 968 24 L 936 24" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <path d="M 32 304 L 32 336 L 64 336" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <path d="M 968 304 L 968 336 L 936 336" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <rect x="32" y="24" width="936" height="3" fill="url(#scan)"/>
+
+  <!-- header -->
+  <rect x="60" y="52" width="8" height="8" fill="#facc15"/>
+  <text x="76" y="60" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#9a9078">SYS.PROFILE // HENRY_CHEA</text>
+  <text x="940" y="60" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#facc15">[INDEPENDENT]</text>
+
+  <!-- left -->
+  <text x="68" y="136" font-family="'Space Grotesk', -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="54" font-weight="700" letter-spacing="1" fill="#e5e1e4">HENRY CHEA</text>
+  <text x="68" y="178" font-family="'Space Grotesk', -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700" letter-spacing="2" fill="#facc15">INDEPENDENT DEVELOPER</text>
+  <text x="68" y="206" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="13.5" letter-spacing="0.5" fill="#9a9078">side projects only · no employer · building my own products</text>
+
+  <!-- chips -->
+  <g font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" letter-spacing="1.4">
+    <rect x="68" y="228" width="150" height="28" fill="#131315" stroke="#4d4632"/>
+    <text x="80" y="246" fill="#e5e1e4">PHNOM PENH, KH</text>
+    <rect x="226" y="228" width="82" height="28" fill="#131315" stroke="#4d4632"/>
+    <text x="238" y="246" fill="#e5e1e4">REMOTE</text>
+    <rect x="316" y="228" width="96" height="28" fill="#131315" stroke="#facc15" stroke-opacity="0.55"/>
+    <text x="328" y="246" fill="#facc15">MIT / OSS</text>
   </g>
 
-  <!-- Card shadow -->
-  <rect x="60" y="64" width="600" height="212" rx="36" fill="#000000" opacity="0.5" filter="url(#blur24)"/>
+  <text x="68" y="300" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.2" fill="#6f6a5a">FORMERLY  IDVERSE · GVRN.AI · TAB NEXT ASIA · SPEAKTE</text>
 
-  <!-- Liquid glass card -->
-  <rect x="60" y="64" width="600" height="212" rx="36" fill="url(#glass)" stroke="url(#rim)" stroke-width="1.5"/>
+  <!-- terminal -->
+  <rect x="588" y="80" width="340" height="212" fill="#0e0e10" stroke="#4d4632"/>
+  <rect x="588" y="80" width="340" height="26" fill="#1b1b1d" stroke="#4d4632"/>
+  <rect x="600" y="89" width="8" height="8" fill="#ef4444"/>
+  <rect x="614" y="89" width="8" height="8" fill="#facc15"/>
+  <rect x="628" y="89" width="8" height="8" fill="#4d4632"/>
+  <text x="650" y="97" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.2" fill="#9a9078">bash — henry</text>
 
-  <!-- Text -->
-  <text x="100" y="142" font-family="Inter, -apple-system, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">Henry Chea</text>
-  <text x="100" y="184" font-family="Inter, -apple-system, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="500" fill="#B9B9C9">Full-Stack Engineer · SDK &amp; Platform Development</text>
-
-  <!-- Accent line -->
-  <rect x="100" y="203" width="52" height="3.5" rx="1.75" fill="url(#g1)"/>
-
-  <!-- Chips -->
-  <rect x="100" y="220" width="180" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
-  <text x="115" y="242" font-family="Inter, -apple-system, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500" fill="#D9D9E3">Phnom Penh, Cambodia</text>
-  <rect x="292" y="220" width="152" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
-  <text x="307" y="242" font-family="Inter, -apple-system, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500" fill="#D9D9E3">Remote Worldwide</text>
-
-  <!-- Sparkles -->
-  <g transform="translate(585,130) scale(1.5)">
-    <path d="M0,-22 C2,-7 7,-2 22,0 C7,2 2,7 0,22 C-2,7 -7,2 -22,0 C-7,-2 -2,-7 0,-22 Z" fill="url(#g1)">
-      <animate attributeName="opacity" values="0.45;1;0.45" dur="3.2s" repeatCount="indefinite"/>
-    </path>
+  <g font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" letter-spacing="0.3">
+    <text x="604" y="128" fill="#9a9078">$ <tspan fill="#e5e1e4">whoami</tspan></text>
+    <text x="604" y="150" fill="#e5e1e4">henry chea</text>
+    <text x="604" y="176" fill="#9a9078">$ <tspan fill="#e5e1e4">status</tspan></text>
+    <text x="604" y="198" fill="#facc15">independent · side projects</text>
+    <text x="604" y="224" fill="#9a9078">$ <tspan fill="#e5e1e4">now</tspan></text>
+    <text x="604" y="246" fill="#e5e1e4">sunnygen · v2.0.0 · MIT</text>
+    <text x="604" y="272" fill="#facc15">$</text>
   </g>
-  <g transform="translate(625,172) scale(0.75)">
-    <path d="M0,-22 C2,-7 7,-2 22,0 C7,2 2,7 0,22 C-2,7 -7,2 -22,0 C-7,-2 -2,-7 0,-22 Z" fill="url(#g2)">
-      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.6s" repeatCount="indefinite"/>
-    </path>
-  </g>
-  <g transform="translate(556,196) scale(0.5)">
-    <path d="M0,-22 C2,-7 7,-2 22,0 C7,2 2,7 0,22 C-2,7 -7,2 -22,0 C-7,-2 -2,-7 0,-22 Z" fill="url(#g3)">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
-    </path>
-  </g>
+  <rect x="618" y="260" width="8" height="14" fill="#facc15">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="32" y="333" width="936" height="3" fill="url(#scan)"/>
 </svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 290" width="490" height="290" role="img" aria-label="Languages across public repositories for henrychea">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1b1b1d" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#facc15" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#facc15" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#ef4444" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="490" height="290" fill="#0e0e10"/>
+  <rect width="490" height="290" fill="url(#grid)"/>
+  <rect x="10" y="10" width="470" height="270" fill="#131315" stroke="#facc15" stroke-width="1.2"/>
+  <rect x="18" y="18" width="454" height="254" fill="none" stroke="#4d4632" stroke-opacity="0.7"/>
+  <rect x="40" y="38" width="7" height="7" fill="#facc15"/>
+  <text x="54" y="46" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.8" fill="#9a9078">SYS.LANGS // PUBLIC_REPOS</text>
+  <text x="450" y="46" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.8" fill="#facc15">BY BYTES</text>
+  <rect x="24" y="64" width="170.32871073639464" height="20" fill="#facc15"/><rect x="195.32871073639464" y="64" width="106.65466270656056" height="20" fill="#ef4444"/><rect x="302.9833734429552" y="64" width="98.45291565230389" height="20" fill="#9a9078"/><rect x="402.4362890952591" y="64" width="20.769788755678515" height="20" fill="#e5e1e4"/><rect x="424.2060778509376" y="64" width="18.452086458716487" height="20" fill="#6c5700"/><rect x="443.6581643096541" y="64" width="21.341835690345924" height="20" fill="#ffb3ad"/>
+  <rect x="24" y="107" width="8" height="8" fill="#facc15"/>
+      <text x="40" y="116" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#e5e1e4">HTML</text>
+      <text x="466" y="116" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">38.8%</text><rect x="24" y="129" width="8" height="8" fill="#ef4444"/>
+      <text x="40" y="138" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#e5e1e4">TypeScript</text>
+      <text x="466" y="138" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">24.4%</text><rect x="24" y="151" width="8" height="8" fill="#9a9078"/>
+      <text x="40" y="160" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#e5e1e4">CSS</text>
+      <text x="466" y="160" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">22.5%</text><rect x="24" y="173" width="8" height="8" fill="#e5e1e4"/>
+      <text x="40" y="182" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#e5e1e4">Lua</text>
+      <text x="466" y="182" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">4.9%</text><rect x="24" y="195" width="8" height="8" fill="#6c5700"/>
+      <text x="40" y="204" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#e5e1e4">Rust</text>
+      <text x="466" y="204" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">4.4%</text><rect x="24" y="217" width="8" height="8" fill="#ffb3ad"/>
+      <text x="40" y="226" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#e5e1e4">Other</text>
+      <text x="466" y="226" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">5.1%</text>
+  <text x="24" y="272" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="9" letter-spacing="0.8" fill="#9a9078">SYNCED 2026-11-13 · 16 PUBLIC REPOS</text>
+</svg>

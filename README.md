@@ -1,47 +1,63 @@
 <p align="center">
-  <img src="profile/hero.svg" alt="Henry Chea, Full-Stack Engineer, SDK and Platform Development, Phnom Penh, Remote Worldwide" width="100%">
+  <img src="profile/hero.svg" alt="Henry Chea — independent developer building side projects in Phnom Penh. Formerly SDK and platform work at IDVerse, GVRN.ai, Tab Next Asia, and SpeakTe." width="100%">
 </p>
 
-I build SaaS products end to end: API, database, web app, mobile app, and docs. One backend, two clients, shipped solo.
+<p align="center">
+  <code>independent developer</code> &nbsp;·&nbsp; <code>side projects only</code> &nbsp;·&nbsp; <code>not employed</code>
+</p>
+
+I'm Henry. I build my own products now — no employer, no full-time role. SunnyGen is the main one; OKPaid and Quick Khmer are still shipping. Before that I spent years inside product teams building SDKs, payments, and platforms. That experience is the whole foundation for what I'm doing solo.
 
 <img src="profile/divider.svg" alt="" width="100%">
 
-## Currently Building
+## 01 // NOW
 
-### [OKPaid](https://okpaid.io)
+### [SunnyGen](https://github.com/henrychea/SunnyGen) — local-first AI studio
 
-A merchant POS and business-management platform, built solo from zero:
+<p align="center">
+  <img src="profile/sunnygen.gif" alt="SunnyGen gallery wall with folders, generated renders, and the local-first chrome." width="100%">
+</p>
 
-- **Backend:** TypeScript, Hono.js, Drizzle ORM, Postgres on Neon, deployed on Cloudflare. RBAC, API-key management, full migration suite.
-- **Web:** SolidJS PWA with barcode scanning and product auto-fill from the OpenFoodFacts API.
-- **Mobile:** Expo React Native app mirroring the web feature set with mobile-specific UX.
-- **Docs:** Astro.js documentation site.
-- **Features:** orders, invoices, products, customers, sales, kiosk-mode POS, team roles, API access.
+Your studio. Your machine. Your keys. An MIT-licensed AI studio for image, video, avatars, and outfit work that runs on your own machine instead of someone else's cloud.
 
-Two full clients in different frameworks on one backend is the core challenge I enjoy: contract-first API design, then build the same product twice with different UI paradigms.
+- **Local-first:** SQLite, media, and provider keys live in `data/`. No account, no telemetry, no shared credit pool, no markup.
+- **Bring your own providers:** Sunra.ai, fal.ai, Azure AI Foundry, a local Codex CLI, and OpenRouter for chat.
+- **Real pipelines, not one-off prompts:** Canvas flows you can save and re-run, Gallery wall, Wardrobe, Assistant, and a Studio that renders one to four angles from an avatar.
+- **Installable:** PWA shell with offline app cache; reach it over localhost, LAN, or Tailscale.
 
-### [Quick Khmer](https://apps.apple.com/kh/app/quick-khmer-keyboard/id6800227587)
+**Stack:** TanStack Start · TanStack Router · React · TypeScript · SQLite · Tailwind · sharp
+**License:** MIT — fork it, wire in a provider, send a PR.
 
-An iOS keyboard that turns typed Latin into Khmer as you type: type "sok" and get សុខ. SwiftUI keyboard extension, shipped to the App Store:
+[**Repository**](https://github.com/henrychea/SunnyGen)
 
-- **Phonetic transliteration** with automatic consonant stacking and a dedicated stack-breaker key.
-- **Smart suggestions** that learn from your picks, custom shortcut mappings, and an on-device user dictionary.
-- **Private by design:** no accounts, no ads, no tracking, no network requests. Everything runs on-device.
+### [OKPaid](https://okpaid.io) — merchant POS and business management
 
-Free on the [App Store](https://apps.apple.com/kh/app/quick-khmer-keyboard/id6800227587) · [qkk.henrychea.com](https://qkk.henrychea.com/)
+Built solo from zero: TypeScript/Hono/Drizzle/Postgres on Neon and Cloudflare, a SolidJS PWA with barcode scanning, an Expo React Native app mirroring the web feature set, and an Astro docs site. RBAC, API keys, migrations, orders, invoices, kiosk POS.
 
-<img src="profile/divider.svg" alt="" width="100%">
+### [Quick Khmer](https://apps.apple.com/kh/app/quick-khmer-keyboard/id6800227587) — Khmer iOS keyboard
 
-## What I Do
+Type Latin, get Khmer: phonetic transliteration, automatic consonant stacking, smart suggestions, custom shortcuts, and an on-device dictionary. SwiftUI keyboard extension, shipped to the App Store. No accounts, no ads, no tracking, no network calls.
 
-- **Full-stack ownership.** Co-founded SpeakTe (EdTech, zero to product), then shipped across LegalTech, HealthTech, Identity Verification, and Web3. Every role meant learning something new and delivering anyway.
-- **Developer experience.** At IDVerse I built and maintained multi-language SDKs (Node.js, JavaScript, Rust, Leptos) plus shared component libraries and SDK tooling used across teams.
-- **Payments and verification plumbing.** Stripe billing, DocuSign signing flows, Sumsub KYC, Ethereum wallet payments and smart contracts at GVRN.ai.
-- **Leadership.** Mentored two junior frontend developers at Tab Next Asia; led system architecture, financial planning, and investor pitches as SpeakTe co-founder.
+[**App Store**](https://apps.apple.com/kh/app/quick-khmer-keyboard/id6800227587) · [qkk.henrychea.com](https://qkk.henrychea.com/)
 
 <img src="profile/divider.svg" alt="" width="100%">
 
-## Tech Stack
+## 02 // BEFORE
+
+I'm not looking for a full-time role. This section is here because years of shipping for other teams is exactly what I'm pointing at my own products now.
+
+| Duration | Role | Company | What I built |
+|---|---|---|---|
+| ~2 yrs | Frontend Engineer | IDVerse, Remote | Multi-language SDKs (Node.js, JavaScript, Rust, Leptos), shared component libraries, SDK tooling used across teams |
+| ~3 yrs | Full Stack Developer | GVRN.ai, Remote | NestJS, Redis, BullMQ, AWS, Stripe billing, DocuSign, Sumsub KYC, Ethereum wallet payments and smart contracts |
+| ~2 yrs | Team & Tech Lead, Co-Founder | SpeakTe, Phnom Penh | System architecture, Chrome extension, financial planning, investor pitches |
+| ~1 yr | Frontend Developer | Tab Next Asia, Remote | Vue.js, .NET Web SDK, mentored two junior frontend developers |
+
+**BSc in Information Communications Technology**, University of Puthisastra, Phnom Penh (2017–2021), GPA 3.6/4.0
+
+<img src="profile/divider.svg" alt="" width="100%">
+
+## 03 // STACK
 
 **Languages**
 
@@ -54,12 +70,11 @@ Free on the [App Store](https://apps.apple.com/kh/app/quick-khmer-keyboard/id680
 **Frontend & Mobile**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TanStack Start](https://img.shields.io/badge/TanStack_Start-0C0C0C?style=for-the-badge&logo=tanstack&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![Solid.js](https://img.shields.io/badge/Solid.js-2C4F7C?style=for-the-badge&logo=solid&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-F05138?style=for-the-badge&logo=swift&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
@@ -69,80 +84,58 @@ Free on the [App Store](https://apps.apple.com/kh/app/quick-khmer-keyboard/id680
 ![Hono](https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=black)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-**Web3 & Integrations**
+**Integrations & Tools**
 
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
-
-**Tools**
-
+![Remotion](https://img.shields.io/badge/Remotion-0C0C0C?style=for-the-badge&logo=remotion&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Astro](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI_CD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 <img src="profile/divider.svg" alt="" width="100%">
 
-## Selected Projects
+## 04 // PROJECTS
 
 | Project | Stack | What it is |
-|---------|-------|------------|
-| [**OKPaid**](https://okpaid.io) | Hono, Drizzle, Postgres, SolidJS, Expo, Astro | Merchant POS and business-management platform, built solo end to end |
-| [**Quick Khmer**](https://apps.apple.com/kh/app/quick-khmer-keyboard/id6800227587) | SwiftUI, iOS Keyboard Extension | iOS keyboard: type Latin, get Khmer. Smart suggestions, custom mappings, on-device dictionary |
-| **Gling.ai** | Electron, Solid.js | Desktop video app: timeline scrubbing, automated subtitle generation with high-precision timestamping |
-| **Lawato** | Full-stack SaaS | Legal CRM and practice management: case tracking, time logging, billing, dynamic PDF invoices |
-| **SpeakTe** | EdTech platform | Co-founded; English-speaking skills platform, Chrome extension for training analytics, raised funds through investor pitches |
+|---|---|---|
+| [**SunnyGen**](https://github.com/henrychea/SunnyGen) | TanStack Start, React, SQLite, TypeScript | Local-first AI studio: Canvas pipelines, Gallery, Wardrobe, Studio angles. MIT |
+| [**OKPaid**](https://okpaid.io) | Hono, Drizzle, Postgres, SolidJS, Expo, Astro | Merchant POS and business management, built solo end to end |
+| [**Quick Khmer**](https://apps.apple.com/kh/app/quick-khmer-keyboard/id6800227587) | SwiftUI, iOS Keyboard Extension | Type Latin, get Khmer. On-device dictionary, no tracking |
+| Gling.ai | Electron, Solid.js | Desktop video app: timeline scrubbing, automated subtitles with precise timestamps |
+| Lawato | Full-stack SaaS | Legal CRM and practice management: cases, time logging, billing, PDF invoices |
+| SpeakTe | EdTech platform | Co-founded; English-speaking skills platform and a Chrome extension for training analytics |
 
 <img src="profile/divider.svg" alt="" width="100%">
 
-## Experience
-
-| Duration | Role | Company | Stack highlights |
-|--------|------|---------|------------------|
-| <1 yr | Solo Full-Stack Developer | [OKPaid](https://okpaid.io), Remote | Hono, Drizzle, Postgres, SolidJS, Expo |
-| ~2 yrs | Frontend Engineer | IDVerse, Remote | SDKs in Node.js, JavaScript, Rust, Leptos; Tailwind dashboards; component libraries |
-| ~3 yrs | Full Stack Developer | GVRN.ai, Remote | NestJS, Redis, BullMQ, AWS, Stripe, DocuSign, Sumsub, Ethereum |
-| ~1 yr | Frontend Developer | Tab Next Asia, Remote | Vue.js, .NET Web SDK, mentored 2 juniors |
-| ~2 yrs | Team & Tech Lead, Co-Founder | SpeakTe, Phnom Penh | System architecture, Chrome extension, fundraising |
-
-**BSc in Information Communications Technology**, University of Puthisastra, Phnom Penh (2017-2021), GPA 3.6/4.0
-
-<img src="profile/divider.svg" alt="" width="100%">
-
-## GitHub Stats
+## 05 // STATS
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=henrychea&theme=github_dark" alt="GitHub profile details" width="100%">
+  <img src="profile/stats.svg" alt="GitHub stats: contribution heatmap for the last twelve months, plus commits, pull requests, issues, stars, repos, and followers." width="100%">
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=henrychea&theme=github_dark" alt="Top languages across repos" width="49%">
-  <img src="https://streak-stats.demolab.com/?user=henrychea&background=0A0A0F&hide_border=true&ring=7A7AF0&fire=FF6B8A&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=8E8EA0&dates=C9C9D4" alt="GitHub streak" width="49%">
+  <img src="profile/langs.svg" alt="Languages across public repositories by bytes." width="49%">
+  <img src="profile/streak.svg" alt="Current and longest contribution streaks, plus the last 30 days." width="49%">
 </p>
-
-<!-- The classic github-readme-stats cards are paused right now (DEPLOYMENT_PAUSED, verified 2026-08-10).
-     Once they are back, swap them in if you prefer:
-  <img src="https://github-readme-stats.vercel.app/api?username=henrychea&show_icons=true&bg_color=0A0A0F&title_color=7A7AF0&icon_color=FF6B8A&text_color=C9C9D4&border_color=26262E" width="49%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=henrychea&layout=compact&langs_count=8&bg_color=0A0A0F&title_color=7A7AF0&text_color=C9C9D4&border_color=26262E" width="49%">
--->
 
 <img src="profile/divider.svg" alt="" width="100%">
 
-## Get in Touch
+## 06 // CONTACT
 
 - **Email:** [henrychea@outlook.com](mailto:henrychea@outlook.com)
 - **LinkedIn:** [linkedin.com/in/cheahenry](https://www.linkedin.com/in/cheahenry)
 - **Website:** [henrychea.com](https://www.henrychea.com)
+- **GitHub:** [github.com/henrychea](https://github.com/henrychea)
 
-Open to remote full-stack and frontend roles, and to on-site or hybrid work in Phnom Penh. I work best where I own features end to end.
+Not for hire. If you want to collaborate on open source, test SunnyGen, or compare notes on local-first software, email is the fastest way to reach me.
 
 <p align="center">
   <em>Languages: English (native), Khmer (native)</em>
