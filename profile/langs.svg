@@ -17,19 +17,19 @@
   <rect x="40" y="38" width="7" height="7" fill="#facc15"/>
   <text x="54" y="46" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.8" fill="#9a9078">SYS.LANGS // PUBLIC_REPOS</text>
   <text x="450" y="46" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.8" fill="#facc15">BY BYTES</text>
-  <rect x="24" y="64" width="143.6391403262396" height="20" fill="#facc15"/><rect x="168.6391403262396" y="64" width="103.15873004213029" height="20" fill="#ef4444"/><rect x="272.7978703683699" y="64" width="80.53613200821" height="20" fill="#9a9078"/><rect x="354.3340023765799" y="64" width="69.7486008426056" height="20" fill="#e5e1e4"/><rect x="425.0826032191855" y="64" width="17.72997083288322" height="20" fill="#6c5700"/><rect x="443.8125740520687" y="64" width="21.187425947931295" height="20" fill="#ffb3ad"/>
+  <rect x="24" y="64" width="142.1106377065949" height="20" fill="#facc15"/><rect x="167.1106377065949" y="64" width="106.72893424128381" height="20" fill="#ef4444"/><rect x="274.8395719478787" y="64" width="79.67448286476832" height="20" fill="#9a9078"/><rect x="355.51405481264703" y="64" width="69.000951060671" height="20" fill="#e5e1e4"/><rect x="425.51500587331805" y="64" width="17.532038174963954" height="20" fill="#6c5700"/><rect x="444.047044048282" y="64" width="20.95295595171801" height="20" fill="#ffb3ad"/>
   <rect x="24" y="107" width="8" height="8" fill="#facc15"/>
       <text x="40" y="116" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#e5e1e4">HTML</text>
-      <text x="466" y="116" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">32.7%</text><rect x="24" y="129" width="8" height="8" fill="#ef4444"/>
+      <text x="466" y="116" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">32.4%</text><rect x="24" y="129" width="8" height="8" fill="#ef4444"/>
       <text x="40" y="138" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#e5e1e4">TypeScript</text>
-      <text x="466" y="138" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">23.6%</text><rect x="24" y="151" width="8" height="8" fill="#9a9078"/>
+      <text x="466" y="138" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">24.4%</text><rect x="24" y="151" width="8" height="8" fill="#9a9078"/>
       <text x="40" y="160" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#e5e1e4">CSS</text>
-      <text x="466" y="160" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">18.4%</text><rect x="24" y="173" width="8" height="8" fill="#e5e1e4"/>
+      <text x="466" y="160" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">18.3%</text><rect x="24" y="173" width="8" height="8" fill="#e5e1e4"/>
       <text x="40" y="182" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#e5e1e4">Rust</text>
-      <text x="466" y="182" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">16.0%</text><rect x="24" y="195" width="8" height="8" fill="#6c5700"/>
+      <text x="466" y="182" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">15.8%</text><rect x="24" y="195" width="8" height="8" fill="#6c5700"/>
       <text x="40" y="204" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#e5e1e4">Lua</text>
       <text x="466" y="204" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">4.2%</text><rect x="24" y="217" width="8" height="8" fill="#ffb3ad"/>
       <text x="40" y="226" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#e5e1e4">Other</text>
       <text x="466" y="226" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#9a9078">5.0%</text>
-  <text x="24" y="272" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="9" letter-spacing="0.8" fill="#9a9078">SYNCED 2026-11-20 · 18 PUBLIC REPOS</text>
+  <text x="24" y="272" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="9" letter-spacing="0.8" fill="#9a9078">SYNCED 2026-11-21 · 18 PUBLIC REPOS</text>
 </svg>
